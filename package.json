@@ -1,0 +1,20 @@
+{
+  "name": "dueldesign",
+  "version": "1.0.0",
+  "description": "Duel Design launching page",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "author": "Enzo <dorosario.enzo@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}
